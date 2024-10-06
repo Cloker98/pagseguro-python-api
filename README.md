@@ -12,7 +12,7 @@ O projeto é licenciado sob a [GPLv3](LICENSE) e disponibilizado como está. Nen
 
 ## Contribuição
 
-Uma das formas de contribuir com o projeto é considerar o pagamento do QRCode mostrado acima, mas há diferentes outras forma que você pode verificar no [Guia de Contribuição](CONTRIBUTNG.md).
+Uma das formas de contribuir com o projeto é considerar o pagamento do QRCode mostrado acima, mas há diferentes outras forma que você pode verificar no [Guia de Contribuição](CONTRIBUTING.md).
 
 ## Links
 
