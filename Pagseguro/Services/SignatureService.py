@@ -13,8 +13,8 @@ from Util import Util
 from Data.Signature import Signature, BestInvoiceData
 from Data.SignaturePaymentMethod import SignaturePaymentMethod
 from Data.Amount import Amount
-from Service.SignaturePlan import SignaturePlan
-from Service.Response.Link import Link
+from Services.SignaturePlan import SignaturePlan
+from Services.Response.Link import Link
 # Informações do Assinante
 from Data.Subscriber import Subscriber
 from Data.Phone import Phone 

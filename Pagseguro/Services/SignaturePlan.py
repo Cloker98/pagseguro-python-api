@@ -11,7 +11,7 @@ from Data.Amount import Amount
 from Data.Interval import Interval
 from Data.Trial import Trial
 from Data.PlanPaymentMethod import PlanPaymentMethod
-from Service.Response.Link import Link
+from Services.Response.Link import Link
 
 class SignaturePlanStatus(Enum):
    ACTIVE = 0

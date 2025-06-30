@@ -7,7 +7,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from Data.QrCode import QrCode
-from Service.Response.Link import Link
+from Services.Response.Link import Link
 from Data.Charge import Charge
 from Data.Customer import Customer
 from Data.Item import Item

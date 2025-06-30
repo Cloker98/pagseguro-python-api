@@ -6,7 +6,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
-from Service.Response.ErrorMessage import ErrorMessage
+from Services.Response.ErrorMessage import ErrorMessage
 
 class ResponseError(Exception):
     def __init__(self, error_messages: List[ErrorMessage] = None):

@@ -11,7 +11,7 @@ from Data.Address import Address
 from Data.BillingInfo import BillingInfo
 from Data.CardHolder import CardHolder
 from Data.Card import Card
-from Service.Response.Link import Link
+from Services.Response.Link import Link
 
 class Subscriber:
     def __init__(self, name: Optional[str] = None, email: Optional[str] = None, phones: Optional[List[Phone]] = None, tax_id: Optional[str] = None, created_at: Optional[datetime] = None, updated_at: Optional[datetime] = None, reference_id: Optional[str] = None, subscriber_id: Optional[str] = None, birth_date: Optional[date] = None, links: Optional[List[Link]] = None, address: Optional[Address] = None, billing_info: Optional[List[BillingInfo]] = None):

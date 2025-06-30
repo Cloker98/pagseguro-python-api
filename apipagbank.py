@@ -10,13 +10,13 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Classes de serviço e dados
-from Pagseguro.Service.PixOrderService import PixOrderService
+from Pagseguro.Services.PixOrderService import PixOrderService
 from Pagseguro.Data.Customer import Customer
 from Pagseguro.Data.Item import Item
 from Pagseguro.Data.QrCode import QrCode
-from Pagseguro.Service.PixOrder import PixOrder
-from Pagseguro.Service.Response.ResponseError import ResponseError
-from Pagseguro.Service.Response.Link import Link
+from Pagseguro.Services.PixOrder import PixOrder
+from Pagseguro.Services.Response.ResponseError import ResponseError
+from Pagseguro.Services.Response.Link import Link
 #from Pagseguro.Util import Util
 
 # Carrega as variáveis de ambiente do arquivo .env

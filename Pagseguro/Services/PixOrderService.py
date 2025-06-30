@@ -9,7 +9,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from Util import Util
-from Service.PixOrder import PixOrder
+from Services.PixOrder import PixOrder
 from Data.QrCode import QrCode
 from Data.Customer import Customer
 from Data.Item import Item

@@ -9,7 +9,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from Util import Util
-from Service.SignaturePlan import SignaturePlan
+from Services.SignaturePlan import SignaturePlan
 from Data.Amount import Amount
 from Data.Interval import Interval
 from Data.Trial import Trial

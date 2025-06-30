@@ -8,8 +8,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from Data.Amount import Amount
 from Data.Holder import Holder
 from Data.PaymentMethod import PaymentMethod
-from Service.Response.Link import Link
-from Service.Response.PaymentResponse import PaymentResponse
+from Services.Response.Link import Link
+from Services.Response.PaymentResponse import PaymentResponse
 
 class Status:
     AUTHORIZED = "AUTHORIZED"

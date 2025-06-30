@@ -8,9 +8,9 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from Util import Util
 from Data.BillingInfo import BillingInfo
 from Data.SignaturePaymentMethod import SignaturePaymentMethod
-from Service.Response.Link import Link
+from Services.Response.Link import Link
 from Data.Amount import Amount
-from Service.SignaturePlan import SignaturePlan
+from Services.SignaturePlan import SignaturePlan
 from Data.Subscriber import Subscriber
 
 class BestInvoiceData:
